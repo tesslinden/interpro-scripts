@@ -4,7 +4,7 @@
 #
 # make_prot_fig.R
 #
-# defines the function make_prot_fig(), which take as input: (1) a data 
+# defines the function make_prot_fig(), which takes as input: (1) a data 
 # frame of proteins and their domains with their respective start and 
 # stop locations; and (2) a data frame that assigns each domain a color,
 # and generates a diagram of the proteins and their domains. 
