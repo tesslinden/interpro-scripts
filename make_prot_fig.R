@@ -4,7 +4,7 @@
 #
 # make_prot_fig.R
 #
-# defines a functions, make_prot_fig(), which take as input: (1) a data 
+# defines the function make_prot_fig(), which take as input: (1) a data 
 # frame of proteins and their domains with their respective start and 
 # stop locations; and (2) a data frame that assigns each domain a color,
 # and generates a diagram of the proteins and their domains. 
@@ -134,7 +134,7 @@ make_prot_fig <- function(data, colors, scalebar=500, title=NULL, legend = FALSE
 #
 # sample usage 
 # 
-setwd("/Users/tesslinden/Dropbox/King Lab/KL Notebook/docker-singularity-etc/scripts")
+setwd("/Users/tesslinden/Dropbox/King Lab/KL Notebook/docker-singularity-etc/scripts/for\ sharing")
 my_data = read.csv('prot_fig_sample_data.csv', na.strings = '', stringsAsFactors = FALSE)
 my_colors <- data.frame(domain = unique(my_data$domain[my_data$domain != 'protein']),
                         color = c('#56B4E9','#E69F00','#009E73','#F0E442'))
