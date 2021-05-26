@@ -1,7 +1,7 @@
 ﻿protein_id,domain,start,stop
-abcdefghijklmnopqrstuvwxyz123456789,protein,1,450
+protein_x,protein,1,450
 protein_y,protein,1,1892
-abcdefghijklmnopqrstuvwxyz123456789,CTHR,8,307
-abcdefghijklmnopqrstuvwxyz123456789,SH2,400,450
+protein_x,CTHR,8,307
+protein_x,SH2,400,450
 protein_y,C-type lectin,600,823
 protein_y,COLFI,1500,1729
